@@ -1,0 +1,24 @@
+#note: this is what I captured from a real file , the number at the head of every line is the line number showed by text editor.
+
+   2 <log globalId="SF75CDL20ESS01" groupId="SF75CDL20ESSX1" productType="XXXX" ETVersion="5">
+
+
+   9 <entry cycle="51149" epochTime="1431333736" localTime="2015-05-11T16:42:16TAIST">
+
+
+  15 <rankConfiguration>
+  16 <rank id="0x0000" pool="0x0000" da="0x0000" totalExtents="829" freeExtents ="7" tier="1" raidType="5" raidWidth="6" raidStrip="448" ddmId="NotSet"      ddmSize="142" infoFlag="0x00000000" adapter="0x0000"/>
+  17 <rank id="0x0002" pool="0x0000" da="0x0000" totalExtents="829" freeExtents ="5" tier="1" raidType="5" raidWidth="6" raidStrip="448" ddmId="NotSet"      ddmSize="142" infoFlag="0x00000000" adapter="0x0000"/>
+...
+  56 </rankConfiguration>
+
+
+2542 <rankIoStatistics>
+2543 <sample rank="0x0000" pool="0x0000" readCount="1392464816" readSectorCount="140081498446" readResponseTime="PT3073300.402S" writeCount="78365561"      writeSectorCount="67081823277" writeResponseTime="PT1076324.267S" accumDiskLoading="4619515275446" remoteAccumDiskLoading="3754038801"/>
+2544 <sample rank="0x0002" pool="0x0000" readCount="1435266004" readSectorCount="144157112000" readResponseTime="PT3081350.277S" writeCount="59492544"      writeSectorCount="69009518819" writeResponseTime="PT867652.341S" accumDiskLoading="4289225114035" remoteAccumDiskLoading="0"/>
+..
+2583 </rankIoStatistics>
+
+2717 </entry>
+
+6012 </log>
